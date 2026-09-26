@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Omar%20Khandaker&fontColor=ffffff&fontSize=44&animation=fadeIn" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=520&lines=n8n+Automation+Expert;I+automate+the+boring+stuff;AI+Agents+%2B+Workflows;Founder+%40+growbig100.com" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=520&lines=GTM+Engineer;n8n+Automation+Expert;AI+Agents+%2B+Workflows;I+automate+the+boring+stuff" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -11,6 +11,7 @@
 
 ### 👋 About me
 
+- 🚀 **GTM Engineer**, building the systems behind outbound, lead gen and pipeline
 - ⚡ I build **n8n automations** that connect apps, APIs and AI so businesses run on autopilot
 - 🤖 Working with AI agents, webhooks, CRMs and lead-gen workflows
 - 💬 Ask me about workflow automation, integrations and scaling ops
