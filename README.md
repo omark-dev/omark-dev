@@ -15,17 +15,7 @@
 
 I design the systems that fill a sales pipeline without anyone lifting a finger: leads come in, get enriched and scored by AI, land in the CRM, and outreach goes out automatically.
 
-```mermaid
-flowchart LR
-    A[Lead sources<br/>forms · scrapers · lists] --> B[n8n<br/>enrichment]
-    B --> C{AI scoring}
-    C -- hot --> D[CRM]
-    C -- warm --> E[Outreach<br/>sequences]
-    D --> F[Slack alerts]
-    E --> D
-    style B fill:#EA4B71,color:#fff,stroke:#EA4B71
-    style C fill:#161B33,color:#fff,stroke:#EA4B71
-```
+<img src="./pipeline.svg" width="100%" alt="Lead sources → n8n enrichment → AI scoring → CRM / Outreach → Slack alert"/>
 
 ### 🤝 What I can help with
 

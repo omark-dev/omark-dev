@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220">
+  <style>
+    text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; fill: #E6EAF2; }
+    .sub { fill: #8B93A8; font-size: 12px; }
+    .t { font-size: 15px; font-weight: 600; }
+    .box { fill: #161B33; stroke: #2A3150; stroke-width: 1.5; }
+    .hot { fill: #EA4B71; stroke: #EA4B71; }
+    .wire { fill: none; stroke: #EA4B71; stroke-width: 2; stroke-dasharray: 6 8; animation: d 1.4s linear infinite; }
+    @keyframes d { to { stroke-dashoffset: -28; } }
+    .lbl { fill: #EA4B71; font-size: 11px; font-weight: 600; }
+  </style>
+  <rect width="1000" height="220" rx="14" fill="#0B1120"/>
+
+  <path class="wire" d="M170 110 H210"/>
+  <path class="wire" d="M350 110 H390"/>
+  <path class="wire" d="M530 110 C 560 110, 560 60, 590 60"/>
+  <path class="wire" d="M530 110 C 560 110, 560 160, 590 160"/>
+  <path class="wire" d="M730 60 H790"/>
+  <path class="wire" d="M730 160 C 760 160, 760 60, 790 60"/>
+
+  <rect class="box" x="30" y="80" width="140" height="60" rx="10"/>
+  <text class="t" x="100" y="106" text-anchor="middle">Lead sources</text>
+  <text class="sub" x="100" y="126" text-anchor="middle">forms · lists · scrapers</text>
+
+  <rect class="box hot" x="210" y="80" width="140" height="60" rx="10"/>
+  <text class="t" x="280" y="106" text-anchor="middle">n8n</text>
+  <text class="sub" x="280" y="126" text-anchor="middle" style="fill:#fff">enrichment</text>
+
+  <rect class="box" x="390" y="80" width="140" height="60" rx="10" style="stroke:#EA4B71"/>
+  <text class="t" x="460" y="106" text-anchor="middle">AI scoring</text>
+  <text class="sub" x="460" y="126" text-anchor="middle">fit + intent</text>
+
+  <text class="lbl" x="560" y="50">HOT</text>
+  <text class="lbl" x="560" y="184">WARM</text>
+
+  <rect class="box" x="590" y="30" width="140" height="60" rx="10"/>
+  <text class="t" x="660" y="56" text-anchor="middle">CRM</text>
+  <text class="sub" x="660" y="76" text-anchor="middle">deal created</text>
+
+  <rect class="box" x="590" y="130" width="140" height="60" rx="10"/>
+  <text class="t" x="660" y="156" text-anchor="middle">Outreach</text>
+  <text class="sub" x="660" y="176" text-anchor="middle">AI-personalized sequences</text>
+
+  <rect class="box" x="790" y="30" width="170" height="60" rx="10"/>
+  <text class="t" x="875" y="56" text-anchor="middle">Slack alert</text>
+  <text class="sub" x="875" y="76" text-anchor="middle">sales team notified</text>
+</svg>
