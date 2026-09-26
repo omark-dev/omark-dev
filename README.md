@@ -1,36 +1,78 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Omar%20Khandaker&fontColor=ffffff&fontSize=44&animation=fadeIn" width="100%"/>
+<img src="./banner.svg" width="100%" alt="Omar Khandaker, GTM Engineer"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=520&lines=GTM+Engineer;n8n+Automation+Expert;AI+Agents+%2B+Workflows;I+automate+the+boring+stuff" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=EA4B71&center=true&vCenter=true&width=560&lines=I+build+the+automation+behind+go-to-market;Lead+gen+%E2%86%92+enrichment+%E2%86%92+outreach+%E2%86%92+CRM;n8n+%2B+AI+agents%2C+running+on+autopilot" alt="Typing SVG"/>
 </p>
 
 <p align="center">
-  <a href="https://growbig100.com"><img src="https://img.shields.io/badge/growbig100.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-  <a href="https://omar3d-lyoljt.manus.space/"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=About.me&logoColor=white"/></a>
+  <a href="https://growbig100.com"><img src="https://img.shields.io/badge/growbig100.com-EA4B71?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://omar3d-lyoljt.manus.space/"><img src="https://img.shields.io/badge/Portfolio-161B33?style=flat-square&logo=googlechrome&logoColor=EA4B71"/></a>
 </p>
 
-### 👋 About me
+---
 
-- 🚀 **GTM Engineer**, building the systems behind outbound, lead gen and pipeline
-- ⚡ I build **n8n automations** that connect apps, APIs and AI so businesses run on autopilot
-- 🤖 Working with AI agents, webhooks, CRMs and lead-gen workflows
-- 💬 Ask me about workflow automation, integrations and scaling ops
+### ⚙️ What I build
 
-### 🛠️ Tools I use
+I design the systems that fill a sales pipeline without anyone lifting a finger: leads come in, get enriched and scored by AI, land in the CRM, and outreach goes out automatically.
+
+```mermaid
+flowchart LR
+    A[Lead sources<br/>forms · scrapers · lists] --> B[n8n<br/>enrichment]
+    B --> C{AI scoring}
+    C -- hot --> D[CRM]
+    C -- warm --> E[Outreach<br/>sequences]
+    D --> F[Slack alerts]
+    E --> D
+    style B fill:#EA4B71,color:#fff,stroke:#EA4B71
+    style C fill:#161B33,color:#fff,stroke:#EA4B71
+```
+
+### 🤝 What I can help with
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>📤 Outbound automation</h4>
+      Lead sourcing, enrichment and multi-step outreach sequences that run themselves.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🤖 AI agents</h4>
+      Agents that research prospects, qualify leads and write personalized messages.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🗂️ CRM & data ops</h4>
+      Clean pipelines, syncs between tools, dedupe and reporting, all wired together with n8n.
+    </td>
+  </tr>
+</table>
+
+### 🛠️ Toolbox
 
 <p>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Webhooks%20%26%20APIs-000000?style=for-the-badge&logo=postman&logoColor=white"/></p>
-
-### 📊 GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=omark-dev&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=omark-dev&theme=tokyonight&hide_border=true"/>
+  <img src="https://img.shields.io/badge/n8n-161B33?style=flat-square&logo=n8n&logoColor=EA4B71"/>
+  <img src="https://img.shields.io/badge/JavaScript-161B33?style=flat-square&logo=javascript&logoColor=EA4B71"/>
+  <img src="https://img.shields.io/badge/OpenAI-161B33?style=flat-square&logo=openai&logoColor=EA4B71"/>
+  <img src="https://img.shields.io/badge/Claude-161B33?style=flat-square&logo=anthropic&logoColor=EA4B71"/>
+  <img src="https://img.shields.io/badge/Supabase-161B33?style=flat-square&logo=supabase&logoColor=EA4B71"/>
+  <img src="https://img.shields.io/badge/Webhooks_&_APIs-161B33?style=flat-square&logo=postman&logoColor=EA4B71"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
+<!--
+### 🚀 Featured workflows
+Add 2-3 pinned repos here once published, e.g.:
+- **[lead-enrichment-pipeline](https://github.com/omark-dev/lead-enrichment-pipeline)** : what it does, result it gets
+-->
+
+### 🐍 Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omark-dev/omark-dev/output/snake-dark.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/omark-dev/omark-dev/output/snake.svg"/>
+</picture>
+
+---
+
+<p align="center">
+  <b>Want your go-to-market on autopilot?</b><br/><br/>
+  <a href="https://growbig100.com"><img src="https://img.shields.io/badge/Let's_talk_→_growbig100.com-EA4B71?style=for-the-badge"/></a>
+</p>
