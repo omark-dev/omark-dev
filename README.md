@@ -52,7 +52,7 @@ I design the systems that fill a sales pipeline without anyone lifting a finger:
 - **VantageFit AI**: browser gym trainer; the camera counts reps and grades form
 - **AI agent team**: 24/7 agents that scout leads, draft LinkedIn posts and report in Slack
 - **Ad Factory**: AI pipeline that makes vertical video ads end to end
-- **Bangla subscription apps**: 15+ news, finance and game apps on one shared OTP platform
+- **Subscription-based apps**: 15+ news, finance and game apps on one shared OTP platform
 - **Guardian Shrine**: Roblox pet game: hatch, evolve, protect
 
 👉 **[See all 40+ projects with screenshots](https://github.com/omark-dev/projects)** (source code private)
