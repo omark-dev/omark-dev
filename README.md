@@ -47,11 +47,15 @@ I design the systems that fill a sales pipeline without anyone lifting a finger:
   <img src="https://img.shields.io/badge/Webhooks_&_APIs-161B33?style=flat-square&logo=postman&logoColor=EA4B71"/>
 </p>
 
-<!--
-### 🚀 Featured workflows
-Add 2-3 pinned repos here once published, e.g.:
-- **[lead-enrichment-pipeline](https://github.com/omark-dev/lead-enrichment-pipeline)** : what it does, result it gets
--->
+### 🚀 Featured projects
+
+- **VantageFit AI**: browser gym trainer; the camera counts reps and grades form
+- **AI agent team**: 24/7 agents that scout leads, draft LinkedIn posts and report in Slack
+- **Ad Factory**: AI pipeline that makes vertical video ads end to end
+- **Bangla subscription apps**: 15+ news, finance and game apps on one shared OTP platform
+- **Guardian Shrine**: Roblox pet game: hatch, evolve, protect
+
+👉 **[See all 40+ projects with screenshots](https://github.com/omark-dev/projects)** (source code private)
 
 ### 🐍 Activity
 
