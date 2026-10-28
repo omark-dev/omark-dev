@@ -15,8 +15,8 @@ I'm a GTM engineer. Most days I build the automation that fills a sales pipeline
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/omark-dev/projects/main/images/guardian-shrine.jpg" width="100%" alt="Guardian Shrine hub world"/>
-      <br/><b>Guardian Shrine.</b> A Roblox pet game. Hatch guardians, evolve them, protect the shrine.
+      <img src="./klevora.gif" width="100%" alt="Klevora Host landing page with a rotating 3D Minecraft island"/>
+      <br/><b>Klevora Host.</b> Minecraft server hosting at $1 per GB. The 3D island is live; click it to mine a block.
     </td>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/omark-dev/projects/main/images/black-pearl.png" width="100%" alt="Black Pearl agent board"/>
@@ -31,7 +31,7 @@ I'm a GTM engineer. Most days I build the automation that fills a sales pipeline
 | Subscription-based apps | 15+ news, finance and game apps on one shared login and billing platform | Live |
 | Ad Factory | Turns a script into a finished vertical video ad: voices, shots, edit, captions | Built |
 | Holo Control | Runs two monitors by hand, eyes and voice, fully offline | Built |
-| Klevora Host | Minecraft server hosting site with a 3D island you can mine | Built |
+| Guardian Shrine | Roblox pet game: hatch guardians, evolve them, protect the shrine | Built |
 
 ## How I fill a pipeline
 

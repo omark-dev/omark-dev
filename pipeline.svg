@@ -7,9 +7,14 @@
     .lbl { font: 11px PM, Consolas, monospace; fill: #EA4B71; }
     .box { fill: #0B1120; stroke: #2A3150; stroke-width: 1.5; }
     .wire { fill: none; stroke: #2A3150; stroke-width: 1.5; }
-    .dot { offset-path: path('M100 110 H530 C 560 110, 560 60, 590 60 H875'); animation: run 5s cubic-bezier(.65,0,.35,1) infinite; }
-    @keyframes run { from { offset-distance: 0%; } to { offset-distance: 100%; } }
-    @media (prefers-reduced-motion: reduce) { .dot { animation: none; display: none; } }
+    /* hot leads go straight to the CRM, warm ones get a sequence first; both end in Slack */
+    .hot  { offset-path: path('M100 110 H530 C 560 110, 560 60, 590 60 H875'); animation: run 6s cubic-bezier(.65,0,.35,1) infinite; }
+    .warm { offset-path: path('M100 110 H530 C 560 110, 560 160, 590 160 H730 C 760 160, 760 60, 790 60 H875'); animation: run 6s 3s cubic-bezier(.65,0,.35,1) infinite; opacity: 0; }
+    @keyframes run { 0% { offset-distance: 0%; opacity: 0; } 5% { opacity: 1; } 80% { offset-distance: 100%; opacity: 1; } 86%, 100% { offset-distance: 100%; opacity: 0; } }
+    /* Slack lights up as each lead arrives (every 3 s) */
+    .slack { animation: ping 3s 1.8s linear infinite; }
+    @keyframes ping { 0% { stroke: #EA4B71; fill: #1A1430; } 30%, 100% { stroke: #2A3150; fill: #0B1120; } }
+    @media (prefers-reduced-motion: reduce) { .hot, .warm { display: none; } .slack { animation: none; } }
   </style>
   <rect x=".5" y=".5" width="999" height="219" rx="12" fill="#0B1120" stroke="#1E2540"/>
 
@@ -20,32 +25,36 @@
   <path class="wire" d="M730 60 H790"/>
   <path class="wire" d="M730 160 C 760 160, 760 60, 790 60"/>
 
+
   <rect class="box" x="30" y="80" width="140" height="60" rx="8"/>
-  <text class="t" x="100" y="106" text-anchor="middle">Lead sources</text>
-  <text class="s" x="100" y="126" text-anchor="middle">forms, lists</text>
 
   <rect class="box" x="210" y="80" width="140" height="60" rx="8" style="stroke:#EA4B71"/>
-  <text class="t" x="280" y="106" text-anchor="middle">n8n</text>
-  <text class="s" x="280" y="126" text-anchor="middle">enrichment</text>
 
   <rect class="box" x="390" y="80" width="140" height="60" rx="8"/>
-  <text class="t" x="460" y="106" text-anchor="middle">AI scoring</text>
-  <text class="s" x="460" y="126" text-anchor="middle">fit and intent</text>
 
-  <text class="lbl" x="556" y="48">hot</text>
-  <text class="lbl" x="556" y="186">warm</text>
 
   <rect class="box" x="590" y="30" width="140" height="60" rx="8"/>
-  <text class="t" x="660" y="56" text-anchor="middle">CRM</text>
-  <text class="s" x="660" y="76" text-anchor="middle">deal created</text>
 
   <rect class="box" x="590" y="130" width="140" height="60" rx="8"/>
+
+  <rect class="box slack" x="790" y="30" width="170" height="60" rx="8"/>
+
+  <!-- leads ride above the boxes but under the labels -->
+  <circle class="hot" r="4.5" fill="#EA4B71"/>
+  <circle class="warm" r="4.5" fill="#C9D1E4"/>
+
+  <text class="t" x="100" y="106" text-anchor="middle">Lead sources</text>
+  <text class="s" x="100" y="126" text-anchor="middle">forms, lists</text>
+  <text class="t" x="280" y="106" text-anchor="middle">n8n</text>
+  <text class="s" x="280" y="126" text-anchor="middle">enrichment</text>
+  <text class="t" x="460" y="106" text-anchor="middle">AI scoring</text>
+  <text class="s" x="460" y="126" text-anchor="middle">fit and intent</text>
+  <text class="lbl" x="556" y="48">hot</text>
+  <text class="lbl" x="556" y="186">warm</text>
+  <text class="t" x="660" y="56" text-anchor="middle">CRM</text>
+  <text class="s" x="660" y="76" text-anchor="middle">deal created</text>
   <text class="t" x="660" y="156" text-anchor="middle">Outreach</text>
   <text class="s" x="660" y="176" text-anchor="middle">AI-written</text>
-
-  <rect class="box" x="790" y="30" width="170" height="60" rx="8"/>
   <text class="t" x="875" y="56" text-anchor="middle">Slack alert</text>
   <text class="s" x="875" y="76" text-anchor="middle">sales team notified</text>
-
-  <circle class="dot" r="4" fill="#EA4B71"/>
 </svg>
