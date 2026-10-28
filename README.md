@@ -1,72 +1,48 @@
-<img src="./banner.svg" width="100%" alt="Omar Khandaker, GTM Engineer"/>
+<img src="./banner.svg" width="100%" alt="Omar Khandaker. I build the machines behind go-to-market."/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=EA4B71&center=true&vCenter=true&width=560&lines=I+build+the+automation+behind+go-to-market;Lead+gen+%E2%86%92+enrichment+%E2%86%92+outreach+%E2%86%92+CRM;n8n+%2B+AI+agents%2C+running+on+autopilot" alt="Typing SVG"/>
-</p>
+I'm a GTM engineer. Most days I build the automation that fills a sales pipeline: leads come in, get enriched and scored by AI, land in the CRM, and outreach goes out on its own. The rest of the time I build products. 45+ so far, across apps, games, AI agents and websites.
 
-<p align="center">
-  <a href="https://growbig100.com"><img src="https://img.shields.io/badge/growbig100.com-EA4B71?style=flat-square&logo=googlechrome&logoColor=white"/></a>
-  <a href="https://omar3d-lyoljt.manus.space/"><img src="https://img.shields.io/badge/Portfolio-161B33?style=flat-square&logo=googlechrome&logoColor=EA4B71"/></a>
-</p>
+**[Work with me](https://growbig100.com)** &nbsp;/&nbsp; [Portfolio](https://omar3d-lyoljt.manus.space/) &nbsp;/&nbsp; [All projects](https://github.com/omark-dev/projects)
 
----
-
-### ⚙️ What I build
-
-I design the systems that fill a sales pipeline without anyone lifting a finger: leads come in, get enriched and scored by AI, land in the CRM, and outreach goes out automatically.
-
-<img src="./pipeline.svg" width="100%" alt="Lead sources → n8n enrichment → AI scoring → CRM / Outreach → Slack alert"/>
-
-### 🤝 What I can help with
+## Selected work
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4>📤 Outbound automation</h4>
-      Lead sourcing, enrichment and multi-step outreach sequences that run themselves.
+    <td colspan="2">
+      <img src="https://raw.githubusercontent.com/omark-dev/projects/main/images/gym.jpg" width="100%" alt="VantageFit AI workout screen"/>
+      <br/><b>VantageFit AI.</b> A gym trainer that runs in the browser. The camera counts your reps and grades each one on depth, tempo and alignment.
     </td>
-    <td width="33%" valign="top">
-      <h4>🤖 AI agents</h4>
-      Agents that research prospects, qualify leads and write personalized messages.
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/omark-dev/projects/main/images/guardian-shrine.jpg" width="100%" alt="Guardian Shrine hub world"/>
+      <br/><b>Guardian Shrine.</b> A Roblox pet game. Hatch guardians, evolve them, protect the shrine.
     </td>
-    <td width="33%" valign="top">
-      <h4>🗂️ CRM & data ops</h4>
-      Clean pipelines, syncs between tools, dedupe and reporting, all wired together with n8n.
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/omark-dev/projects/main/images/black-pearl.png" width="100%" alt="Black Pearl agent board"/>
+      <br/><b>Black Pearl.</b> One board to watch a fleet of AI agents plan, draft and post.
     </td>
   </tr>
 </table>
 
-### 🛠️ Toolbox
+| Also built | What it does | Status |
+|---|---|---|
+| AI agent team | Agents that scout leads, draft LinkedIn posts and report in Slack, around the clock | Live |
+| Subscription-based apps | 15+ news, finance and game apps on one shared login and billing platform | Live |
+| Ad Factory | Turns a script into a finished vertical video ad: voices, shots, edit, captions | Built |
+| Holo Control | Runs two monitors by hand, eyes and voice, fully offline | Built |
+| Klevora Host | Minecraft server hosting site with a 3D island you can mine | Built |
 
-<p>
-  <img src="https://img.shields.io/badge/n8n-161B33?style=flat-square&logo=n8n&logoColor=EA4B71"/>
-  <img src="https://img.shields.io/badge/JavaScript-161B33?style=flat-square&logo=javascript&logoColor=EA4B71"/>
-  <img src="https://img.shields.io/badge/OpenAI-161B33?style=flat-square&logo=openai&logoColor=EA4B71"/>
-  <img src="https://img.shields.io/badge/Claude-161B33?style=flat-square&logo=anthropic&logoColor=EA4B71"/>
-  <img src="https://img.shields.io/badge/Supabase-161B33?style=flat-square&logo=supabase&logoColor=EA4B71"/>
-  <img src="https://img.shields.io/badge/Webhooks_&_APIs-161B33?style=flat-square&logo=postman&logoColor=EA4B71"/>
-</p>
+## How I fill a pipeline
 
-### 🚀 Featured projects
+<img src="./pipeline.svg" width="100%" alt="Lead sources, then n8n enrichment, then AI scoring, then CRM or outreach, then a Slack alert"/>
 
-- **VantageFit AI**: browser gym trainer; the camera counts reps and grades form
-- **AI agent team**: 24/7 agents that scout leads, draft LinkedIn posts and report in Slack
-- **Ad Factory**: AI pipeline that makes vertical video ads end to end
-- **Subscription-based apps**: 15+ news, finance and game apps on one shared OTP platform
-- **Guardian Shrine**: Roblox pet game: hatch, evolve, protect
+**Outbound automation.** Lead sourcing, enrichment and multi-step sequences that run without anyone pushing them.<br/>
+**AI agents.** Agents that research a prospect, qualify them and write the first message.<br/>
+**CRM and data ops.** Clean records, tools that sync, no duplicates, reports people actually read.
 
-👉 **[See all 40+ projects with screenshots](https://github.com/omark-dev/projects)** (source code private)
-
-### 🐍 Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omark-dev/omark-dev/output/snake-dark.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/omark-dev/omark-dev/output/snake.svg"/>
-</picture>
+I work in n8n, Claude, OpenAI, Python, TypeScript, PHP, React, Flutter and Supabase. For games and video: Roblox, Godot, Phaser, Remotion and Blender.
 
 ---
 
-<p align="center">
-  <b>Want your go-to-market on autopilot?</b><br/><br/>
-  <a href="https://growbig100.com"><img src="https://img.shields.io/badge/Let's_talk_→_growbig100.com-EA4B71?style=for-the-badge"/></a>
-</p>
+Want your go-to-market on autopilot? **[Work with me →](https://growbig100.com)**
